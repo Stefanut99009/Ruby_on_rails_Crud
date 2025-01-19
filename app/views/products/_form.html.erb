@@ -1,0 +1,14 @@
+<%= form_with model: product do |form| %>
+  <div>
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+    <%= form.label :username %>
+    <%= form.text_field :username %>
+    <%= form.label :password %>
+    <%= form.text_field :password %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
